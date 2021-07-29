@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 1rem 0;
+}
+
+header .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90rem;
+    margin: auto;
+}
+
+header .logo-l, header .logo-r{
+    margin: auto;
+    filter: invert(1);
+}
+
+header .logo-r a, header .logo-l a {
+    color: rgb(48, 48, 48);
+}
+
+header .logo-r a:hover, header .logo-l a:hover {
+    color: rgb(0, 0, 0);
+}
+
+header .banner {
+    list-style-type: none;
+    margin: 0 0;
+    padding-left: 0;
+}
+
+header .banner li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0 3.5rem;
+    padding-top: 0.5rem;
+}
+
+header .banner a {
+    text-decoration: none;
+    color: rgb(196, 195, 195);
+}
+
+header .banner a:hover {
+    color: rgb(255, 255, 255);
+}
