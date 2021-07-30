@@ -15,7 +15,7 @@ header {
 header .wrap {
     display: flex;
     flex-wrap: wrap;
-    width: 90rem;
+    width: 105rem;
     margin: auto;
 }
 
@@ -53,3 +53,100 @@ header .banner a {
 header .banner a:hover {
     color: rgb(255, 255, 255);
 }
+
+.sticky {
+    position: fixed;
+}
+
+section.s1 {
+    background-color: rgb(241, 241, 241);
+}
+
+section.s1 .bh-msg {
+    text-align: center;
+    margin: auto;
+    font-size: 1.3rem;
+    width: 100rem;
+} 
+
+section.s1 .bh-msg p {
+    margin: 0;
+    padding: 1.3rem 0;
+}
+
+section.s1 .bh-msg a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+section.s2 .backdiv {
+    height: 100rem;
+    width: 100%;
+}
+
+section.s2 .wrap1 {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+section.s2 .wrap1 {
+    width: 40rem;
+    margin: auto;
+}
+
+section.s2 h1 {
+    margin: 0;
+    padding-top: 5rem;
+    font-size: 5.5rem;
+    font-weight: 550;
+}
+
+section.s2 h2 {
+    font-size: 2.75rem;
+    font-weight: lighter;
+    margin: 1rem 0;
+}
+
+section.s2 h3 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 150%;
+}
+
+section.s2 .wrap2 {
+    font-size: 1.75rem;
+    text-align: center;
+    position: relative;
+    right: 1%;
+    color: rgb(0, 119, 255);
+    width: 100%;
+}
+
+section.s2 .wrap2 a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+    padding: 2rem;
+}
+
+section.s2 .wrap2 .al {
+    padding-right: 1rem;
+}
+
+section.s2 .wrap2 .ar {
+    padding-left: 0;
+}
+
+section.s2 .wrap2 .al:hover {
+    text-decoration: underline;
+}
+
+section.s2 .wrapa {
+    text-decoration: none;
+}
+
+section.s2 .wrapa div {
+    height: 24rem;
+}
+
