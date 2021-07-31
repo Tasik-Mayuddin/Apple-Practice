@@ -79,6 +79,14 @@ section.s1 .bh-msg a {
     color: rgb(0, 119, 255);
 }
 
+section.s2 {
+    height: 70rem;
+    background-image: url("media/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 section.s2 .backdiv {
     height: 100rem;
     width: 100%;
@@ -150,3 +158,94 @@ section.s2 .wrapa div {
     height: 24rem;
 }
 
+section.s3 div{
+    height: 70rem;
+    background-image: url("media/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.s3 a {
+    text-decoration: none;
+}
+
+section.s3 h1 {
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+    padding-top: 6rem;
+}
+
+section.s3 h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 0;
+    margin: 1.5rem auto;
+}
+
+section.s3 p {
+    color: rgb(145, 145, 145);
+    font-size: 1.75rem;
+    font-weight: lighter;
+    margin: 0;
+    padding-top: 1rem;
+    line-height: 100%;
+}
+
+section.s3 span {
+    color: rgb(50, 146, 255);
+    display: inline-block;
+    margin: 3rem 2rem;
+    font-size: 2rem;
+}
+
+section.s3 span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section.s3 span::after {
+    content: " >";
+}
+
+section.s4 div {
+    height: 70rem;
+    background-image: url("media/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.s4 a {
+    text-decoration: none;
+}
+
+section.s4 h1 {
+    padding-top: 5rem;
+    font-size: 5.5rem;
+    width: 60rem;
+    margin: auto;
+    color: black;
+}
+
+section.s4 span {
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgb(50, 146, 255);
+}
+
+section.s4 span:hover {
+    text-decoration: underline;
+}
+
+section.s4 p {
+    display: inline-block;
+    font-size: 2rem;
+    color: rgb(50, 146, 255);
+}
