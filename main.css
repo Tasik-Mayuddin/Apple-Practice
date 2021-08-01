@@ -79,28 +79,14 @@ section.s1 .bh-msg a {
     color: rgb(0, 119, 255);
 }
 
-section.s2 {
+section.s2 div {
     height: 70rem;
     background-image: url("media/pic1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-section.s2 .backdiv {
-    height: 100rem;
-    width: 100%;
-}
-
-section.s2 .wrap1 {
-    text-decoration: none;
     color: black;
     text-align: center;
-    margin: auto;
-}
-
-section.s2 .wrap1 {
-    width: 40rem;
     margin: auto;
 }
 
@@ -121,44 +107,27 @@ section.s2 h3 {
     font-size: 1.7rem;
     font-weight: lighter;
     line-height: 150%;
-}
-
-section.s2 .wrap2 {
-    font-size: 1.75rem;
+    width: 40rem;
     text-align: center;
-    position: relative;
-    right: 1%;
-    color: rgb(0, 119, 255);
-    width: 100%;
+    margin: auto;
+    padding-bottom: 1.75rem;
 }
 
-section.s2 .wrap2 a {
-    text-decoration: none;
-    color: rgb(0, 119, 255);
+section.s2 span {
+    font-size: 2rem;
     padding: 2rem;
+    color: rgb(50, 146, 255);
 }
 
-section.s2 .wrap2 .al {
-    padding-right: 1rem;
-}
-
-section.s2 .wrap2 .ar {
-    padding-left: 0;
-}
-
-section.s2 .wrap2 .al:hover {
+section.s2 span:hover {
     text-decoration: underline;
 }
 
-section.s2 .wrapa {
+section.s2 a {
     text-decoration: none;
 }
 
-section.s2 .wrapa div {
-    height: 24rem;
-}
-
-section.s3 div{
+section.s3 div {
     height: 70rem;
     background-image: url("media/pic2.jpg");
     background-position: center;
