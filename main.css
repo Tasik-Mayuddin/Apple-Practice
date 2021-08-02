@@ -15,7 +15,9 @@ header {
 header .wrap {
     display: flex;
     flex-wrap: wrap;
+    /*width: 105rem;*/ 
     width: 105rem;
+    width: auto;
     margin: auto;
 }
 
@@ -54,6 +56,15 @@ header .banner a:hover {
     color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width: 950px) {
+    header {
+        
+    }
+
+    header .banner {
+        display: none;
+    }
+}
 .sticky {
     position: fixed;
 }
@@ -66,7 +77,7 @@ section.s1 .bh-msg {
     text-align: center;
     margin: auto;
     font-size: 1.3rem;
-    width: 100rem;
+    width: 80%;
 } 
 
 section.s1 .bh-msg p {
@@ -217,4 +228,113 @@ section.s4 p {
     display: inline-block;
     font-size: 2rem;
     color: rgb(50, 146, 255);
+}
+
+section.s5 div {
+    background-image: url(media/pic4.jpg);
+    height: 70rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.s5 a {
+    text-decoration: none;
+}
+
+section.s5 h1 {
+    color: white;
+    font-size: 5rem;
+    padding-top: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section.s5 h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-top: 0.25rem;
+}
+
+section.s5 span {
+    color: rgb(50, 146, 255);
+    font-size: 2rem;
+    padding-right: 3rem;
+} 
+
+section.s5 span:hover {
+    text-decoration: underline;
+}
+
+section.s6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section.s6 a {
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    display: block;
+}
+
+section.s6 div.left {
+    background-image: url(media/pic5.jpg);
+    height: 55rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.s6 div.right {
+    background-image: url(media/pic6.jpg);
+    height: 55rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.s6 div.left h1 {
+    font-size: 4.5rem;
+    color: black;
+    margin-top: 0;
+    padding-top: 6rem;
+    margin-bottom: 0;
+}
+
+section.s6 div.right h1 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4rem;
+}
+
+section.s6 div.left h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 0;
+    color: rgb(80, 80, 80);
+}
+
+section.s6 div.right h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+section.s6 span {
+    color: rgb(50, 146, 255);
+    font-size: 2rem;
+    padding-right: 3rem;
+}
+
+section.s6 span:hover {
+    text-decoration: underline;
 }
