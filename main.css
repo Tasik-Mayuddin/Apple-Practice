@@ -13,38 +13,21 @@ header {
 }
 
 header .wrap {
-    display: flex;
-    flex-wrap: wrap;
-    /*width: 105rem;*/ 
-    width: 105rem;
-    width: auto;
+    max-width: 105rem;
     margin: auto;
-}
-
-header .logo-l, header .logo-r{
-    margin: auto;
-    filter: invert(1);
-}
-
-header .logo-r a, header .logo-l a {
-    color: rgb(48, 48, 48);
-}
-
-header .logo-r a:hover, header .logo-l a:hover {
-    color: rgb(0, 0, 0);
 }
 
 header .banner {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
-    margin: 0 0;
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 header .banner li {
-    display: inline-block;
     font-size: 1.5rem;
-    padding: 0 3.5rem;
-    padding-top: 0.5rem;
+    align-self: center;
 }
 
 header .banner a {
@@ -57,9 +40,7 @@ header .banner a:hover {
 }
 
 @media only screen and (max-width: 950px) {
-    header {
-        
-    }
+
 
     header .banner {
         display: none;
@@ -209,7 +190,7 @@ section.s4 a {
 section.s4 h1 {
     padding-top: 5rem;
     font-size: 5.5rem;
-    width: 60rem;
+    max-width: 60rem;
     margin: auto;
     color: black;
 }
